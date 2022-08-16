@@ -18,7 +18,7 @@ class Mailbox:
 
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
             server.login(FROM, PASSWORD)
-            server.sendmail(msg['From'], msg['To'], msg.get_content())
+            server.send_message(msg)
 
     def _dummyServer(msg):
         s = smtplib.SMTP(SERVER, PORT)
