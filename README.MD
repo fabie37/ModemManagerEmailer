@@ -20,8 +20,8 @@
 - SQL Lite 3
 - Python 3
 - Modem Manager (Linux) 
-> sudo apt-get install sqlite3
-> sudo apt-get install python3
+> sudo apt-get install sqlite3 <br>
+> sudo apt-get install python3  <br>
 > sudo apt-get install modemmanager
 
 ## Setup
@@ -31,11 +31,11 @@
 - If you wish to use gmail you will need to edit a few constants under the directory ` mail/mailbox.py` namely:
 
 > mailbox.py
-> > METHOD = **"gmail"**
-FROM = **'email@email.com'**
-TO = 'email@email.com'
-SERVER = 'localhost'
-PORT = 1025
+> > METHOD = **"gmail"** <br>
+FROM = **'email@email.com'** <br>
+TO = 'email@email.com' <br>
+SERVER = 'localhost' <br>
+PORT = 1025 <br>
 PASSWORD = **"yourpassword"**
 
 
