@@ -4,6 +4,7 @@
 
 - This project was for a friend who needed a way to get SMS messages and get them sent via email. The easiest way to do this is by using a cheapo modem (this was tested on Ericsson N5321) and using modem manager (which can be found on many linux based operating systems)
 - This has very limited functionality as is a lite python wrapper for the Modem Manager CLI.
+- Supported Modems: https://www.freedesktop.org/wiki/Software/ModemManager/SupportedDevices/
 
 ## Goals
 
